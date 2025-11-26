@@ -9,7 +9,10 @@
       "extensions": [
         "rust-lang.rust-analyzer",
         "vadimcn.vscode-lldb"
-      ]
+      ],
+      "settings": {
+        "files.autoSave": "afterDelay"
+      }
     }
   },
   "postCreateCommand": "rustc --version && cargo --version"
